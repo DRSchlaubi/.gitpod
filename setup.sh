@@ -47,5 +47,5 @@ if [ "$NO_ZSH" != "true" ]; then
   echo ZSH_THEME="powerlevel10k/powerlevel10k" >>~/.zshrc
 
   # reload oh-my-zsh instructions again
-  echo "source $ZSH/oh-my-zsh.sh" >>~/.zshrc
+  echo "source \$ZSH/oh-my-zsh.sh" >>~/.zshrc
 fi
