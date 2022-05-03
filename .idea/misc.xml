@@ -7,10 +7,6 @@
     <option name="openedFilesInfos">
       <list>
         <OpenedFileInfo>
-          <option name="caretOffset" value="1768" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/setup.sh" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
           <option name="caretOffset" value="0" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/.p10k.zsh" />
         </OpenedFileInfo>
@@ -19,8 +15,12 @@
           <option name="fileUrl" value="file://$PROJECT_DIR$/LICENSE" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="0" />
+          <option name="caretOffset" value="329" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/README.md" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="1768" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/setup.sh" />
         </OpenedFileInfo>
       </list>
     </option>

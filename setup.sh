@@ -5,6 +5,7 @@ if [ -n "$GPG_KEY" ]; then
   # Fix for invalid ioctl device error
   GPG_TTY=$(tty)
   export GPG_TTY
+  echo 'pinentry-mode loopback' >>~/.gnupg/gpg.conf
 
   if [ -n "$GPG_PASSWORD" ]; then
     # make session never expire and enter password once
@@ -14,7 +15,6 @@ if [ -n "$GPG_KEY" ]; then
   fi
 
   # enable git commit signing
-  echo 'pinentry-mode loopback' >>~/.gnupg/gpg.conf
   git config --global user.signingkey "$GPG_KEY_ID"
   git config --global commit.gpgSign true
 fi
@@ -26,7 +26,7 @@ if [ "$NO_ZSH" != "true" ]; then
   sudo chsh gitpod -s "$(which zsh)"
 
   # Fix GP alias
-  alias pod=/usr/bin/gp
+  echo "alias pod=/usr/bin/gp" >>~/.zshrc
 
   # install ohmyzsh
   CHSH=no
