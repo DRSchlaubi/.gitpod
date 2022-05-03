@@ -1,14 +1,15 @@
 # .gitpod
 
-My Gitpod.io dotfiles
+My Gitpod.io [dotfiles](https://www.gitpod.io/docs/config-dotfiles)
 
 # GPG Signing
 
-In order to setup GPG signing you need to set the following environment variables
+In order to setup GPG signing you need to set the
+following [environment variables](https://www.gitpod.io/docs/environment-variables)
 
 | name | value |
 |--|-------|
-| `GPG_KEY` | `gpg --armor --export-secret-key <identifier> | base64 |
+| `GPG_KEY` | `gpg --armor --export-secret-key <identifier> | base64` |
 | `GPG_KEY_ID` | LONG id of the gpg key |
 
 If you are using JetBrains you can also set `GPG_PASSWORD` as a workaround
